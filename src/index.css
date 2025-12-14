@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-beige text-forest font-sans;
+}
+/* Force transparent form fields for dark backgrounds */
+.form-field {
+  background-color: transparent !important;
+  color: #f5f2ec;
+}
+
+.form-field::placeholder {
+  color: rgba(245, 242, 236, 0.6);
+}
+
+.form-field:focus {
+  background-color: transparent !important;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
