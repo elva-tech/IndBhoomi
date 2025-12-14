@@ -6,6 +6,8 @@ import Hero from "./components/sections/Hero";
 import Team from "./components/team/Team";
 import Value from "./components/Value/Value";
 import WhyIndbhoomi from "./components/WhyIndbhoomi/WhyIndbhoomi";
+import Footer from "./components/layout/Footer";
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         <Team />
         <Partners />
         <Contact />
+        <Footer />
       </main>
     </>
   );

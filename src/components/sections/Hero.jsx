@@ -95,7 +95,12 @@ export default function Hero() {
           className="mt-20"
         >
           <button
-            onClick={() => navigate("/value")}
+            onClick={() => {
+  document.getElementById("value")?.scrollIntoView({
+    behavior: "smooth",
+  });
+}}
+
             className="group relative overflow-hidden border border-gold px-12 py-4 text-sm uppercase tracking-widest"
           >
             <span className="absolute inset-0 translate-y-full bg-gold transition-transform duration-500 group-hover:translate-y-0" />
