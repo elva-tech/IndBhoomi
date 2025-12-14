@@ -3,7 +3,7 @@ export const teamData = [
     id: 1,
     name: "Dr. Siva Mahesh Tangutooru",
     role: "Promoter Director",
-    image: "/public/team-imgs/SivaMaheshTanguTooru.png",
+    image: "/team-imgs/SivaMaheshTanguTooru.png",
     points: [
       "Founder and CEO of Jama Botanics, Turfpearl Agritech, and Nutriwiz Product companies in India",
       "Leads Food and Agrotech companies",
@@ -14,7 +14,7 @@ export const teamData = [
     id: 2,
     name: "Mr. MCV Prasad",
     role: "Promoter Director",
-    image: "/public/team-imgs/MCV-Prasad.png",
+    image: "/team-imgs/MCV-Prasad.png",
     points: [
       "Nature lover, agriculturist, rural entrepreneur, innovator, and motivational speaker",
       "Founder of Prakrutivanam",
@@ -25,7 +25,7 @@ export const teamData = [
     id: 3,
     name: "Mr. Ramakrishna Gupta Racharla",
     role: "Promoter Director",
-    image: "/public/team-imgs/Ramakrishna-Gupta.png",
+    image: "/team-imgs/Ramakrishna-Gupta.png",
     points: [
       "Corporate legal professional with 25 years of experience",
       "Led acquisitions, company setup, litigation management, and corporate compliance",
@@ -36,7 +36,7 @@ export const teamData = [
     id: 4,
     name: "Mr. Papendra",
     role: "Local Director",
-    image: "/public/team-imgs/4th-team-member.png",
+    image: "/team-imgs/4th-team-member.png",
     points: [
       "Masters in Agriculture (MSc, Agri)",
       "15+ years of experience building farms from 100 to 1500 acres",
@@ -46,7 +46,7 @@ export const teamData = [
     id: 5,
     name: "Mr. Krishan Charan Singh",
     role: "Local Director",
-    image: "/public/team-imgs/Krishan-r.png",
+    image: "/team-imgs/Krishan-r.png",
     points: [
       "B.Sc. Agriculture (Hons), MBA in Agribusiness Management",
       "Extensive experience in essential oil crop operations and farming",
