@@ -58,7 +58,7 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() =>
-                    document.getElementById("team")?.scrollIntoView({ behavior: "smooth" })
+                    document.getElementById("ourteam")?.scrollIntoView({ behavior: "smooth" })
                   }
                   className="hover:text-gold transition"
                 >
@@ -87,7 +87,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-gold" />
-                <span>+91 XXXXX XXXXX</span>
+                <span>+91 9611149957</span>
               </li>
             </ul>
           </div>
@@ -117,7 +117,7 @@ export default function Footer() {
             © {new Date().getFullYear()} IndBhoomi. All rights reserved.
           </p>
           <p>
-            Crafted for global luxury supply chains
+            Crafted for global supply chains
           </p>
         </div>
       </div>
